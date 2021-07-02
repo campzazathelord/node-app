@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,13 @@
     "hbs": "^4.0.1",
     "request": "^2.88.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/campzazathelord/node-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/campzazathelord/node-app/issues"
+  },
+  "homepage": "https://github.com/campzazathelord/node-app#readme",
   "description": ""
 }
