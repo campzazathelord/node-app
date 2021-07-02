@@ -9,8 +9,7 @@ const app = express();
 const publicDirectoryPath = path.join(__dirname, "../public");
 const partialPath = path.join(__dirname, "../templates/partials");
 const viewsPath = path.join(__dirname, "../templates/views");
-
-//set up static method
+console.log("dsa");
 app.use(express.static(publicDirectoryPath));
 //setup handlebars and views location
 app.set("view engine", "hbs");
