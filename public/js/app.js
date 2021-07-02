@@ -1,5 +1,6 @@
 const weatherform = document.querySelector("form");
 const search = document.querySelector("input");
+console.log("hello");
 weatherform.addEventListener("submit", (event) => {
   fetch(`/weather?address=${search.value}`).then((response) => {
     response.json().then((data) => {
